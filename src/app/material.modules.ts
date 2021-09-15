@@ -1,18 +1,15 @@
 import { NgModule } from '@angular/core';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
-import {MatButtonModule} from '@angular/material/button';
-import {MatCheckboxModule} from '@angular/material/checkbox';
-import {MatInputModule} from '@angular/material/input';
-import {MatRadioModule} from '@angular/material/radio';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 import { from } from 'rxjs';
 const materialModules = [
   MatAutocompleteModule,
-  MatButtonModule,
-  MatCheckboxModule,
-  MatInputModule,
-  MatRadioModule,
-  MatCardModule
+  MatCardModule,
+  MatToolbarModule,
+  MatFormFieldModule
 ];
 
 @NgModule({
